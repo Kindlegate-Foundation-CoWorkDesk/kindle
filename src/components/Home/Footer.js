@@ -19,7 +19,7 @@ export default function Footer() {
   const isNewsPage = location.pathname === 'NEWS/News';
   return (
     <>
-      <div className="bg-custom-blue pl-10 text-white grid md:grid-cols-4 sm:grid-cols-2 gap-4">
+      <div className="bg-custom-blue md:pl-10 text-white grid md:grid-cols-4 sm:grid-cols-2 gap-4">
         <div className="flex flex-col p-4">
           <img src={logo} alt="logo" className="w-20" />
           <p>
