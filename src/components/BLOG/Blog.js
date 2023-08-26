@@ -19,7 +19,7 @@ export default function Blog(){
       />
       <Section2/>
       <Section5
-        link = '/GET_INVOLVED/Get_involved'
+        link = '/GET_INVOLVED/GetInvolved'
         btn= "GET INVOLVED"
         paragraph="consectetuer adipiscing elit. Maecenas porttitor congue massa.
         Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero,

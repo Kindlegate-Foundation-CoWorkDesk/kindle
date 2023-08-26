@@ -23,7 +23,7 @@ export default function Tribe(){
         textColor="white"
       />
       <Section3
-        link = '/GET_INVOLVED/Get_involved'
+        link = '/GET_INVOLVED/GetInvolved'
         btn="GET INVOLVED"
         paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
         Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero,

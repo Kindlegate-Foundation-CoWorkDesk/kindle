@@ -21,8 +21,8 @@ export default function GetInvolved(){
       <Section2/>
       <Section3/>
       <Section4
-        btn="GET INVOLVED"
-        link = '/GET_INVOLVED/Get_involved'
+        btn="MENTOR"
+        link = '/GET_INVOLVED/Mentor'
         paragraph="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.
         Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero,
          sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est."

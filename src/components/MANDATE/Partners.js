@@ -1,19 +1,26 @@
-import part1 from './images/sec4aicon.png'
-import part2 from './images/sec4iconB.png'
-import part3 from './images/sec4iconC.png'
-import part4 from './images/sec4iconD.png'
-import part5 from './images/sec4iconE.png'
-import part6 from './images/sec4iconF.png'
-import part7 from './images/sec4iconG.png'
+import one from './images/sec4aicon.png'
+import unicef from './images/sec4iconB.png'
+import oxfam from './images/sec4iconC.png'
+import worldVision from './images/sec4iconD.png'
+import save from './images/sec4iconE.png'
+import UN from './images/sec4iconF.png'
+import care from './images/sec4iconG.png'
 
 export default [
-  {logo:part1},
-  {logo:part2},
-  {logo:part3},
-  {logo:part4},
-  {logo:part5},
-  {logo:part6},
-  {logo:part7},
+  {logo:one,
+  link:"https://www.one.org/international/"},
+  {logo:unicef,
+  link:"https://www.unicef.org/reports/state-worlds-children-2023?gclid=CjwKCAjwxaanBhBQEiwA84TVXJUDiPEeidLNOy92rEHLmMQuflTdO5Q60ElU4dA_KfMXfWHCbv_U8xoC6JAQAvD_BwE"},
+  {logo:oxfam,
+  link:"https://www.oxfam.org/en"},
+  {logo:worldVision,
+  link:"https://www.wvi.org/"},
+  {logo:save,
+  link:"https://www.savethechildren.net/"},
+  {logo:UN,
+  link:"https://www.un.org/en/climatechange/climate-adaptation?gclid=CjwKCAjwxaanBhBQEiwA84TVXCj352dIJm3LUIGKZ-aKTRJqO3L0YBohHNNDuhmcRz9QXkbzmGTcUxoCdxcQAvD_BwE"},
+  {logo:care,
+  link:"https://www.care-international.org/"},
   
 
 ]

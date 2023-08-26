@@ -6,9 +6,9 @@ export default function Section4({ title, programs, showButton }) {
       <div>
         <h1 className='font-bold text-3xl text-center mt-16'>{title}</h1>
       </div>
-      <div className="px-20 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="md:px-20 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {programs.map((program, index) => (
-          <div key={index} className="p-10 flex flex-col items-center">
+          <div key={index} className="p-10 flex flex-col items-center lg:w-full">
             <img src={program.image} alt="prog" className="w-full" />
             <div className='my-10 '><h2 className='font-bold text-2xl text-center'>{program.title}</h2></div>
             <div className='shadow-xl'>

@@ -10,8 +10,8 @@ export default function Section3(){
       </div>
       
       <img className='absolute -right-20  top-3 hidden md:block ' src={round_logo}alt="logo"/>
-      <div className=' flex-row pl-20 h-full  pr-20 py-16 grid md:flex md:flex-row"'>
-        <div className="w-full mt-20 -mr-10 z-10 bg-gray-800 text-white justify-start par  md:w-1/2 lg:w-1/2">
+      <div className=' flex-row md:pl-20 h-full  md:pr-20 py-16 grid md:flex md:flex-row"'>
+        <div className="w-full mt-20 -mr-10 z-10 bg-gray-800 text-white justify-start par h-auto  pb-3 md:w-1/2 lg:w-1/2">
           <h3 className='font-bold mb-5 pt-10 px-10'>Healthy communities:</h3>
           <p className='px-10 '> We believe when our communities are healthy and Eco-friendly, 
             people thrive. Consequently, often many of the services that keep people healthy are 
@@ -22,7 +22,7 @@ export default function Section3(){
           </p>
         </div>
         <div className="   md:w-1/2 mt-0  ">
-          <img className='w-full people' src={people} alt="people"/>
+          <img className='md:w-full  people' src={people} alt="people"/>
         </div>
       </div>
     </div>

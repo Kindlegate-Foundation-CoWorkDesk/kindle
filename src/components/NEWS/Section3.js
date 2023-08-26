@@ -28,7 +28,7 @@ export default function Section3() {
   return (
     <>
       {events.map((event, index) => (
-      <div className='flex flex-col md:flex-row border p-6 md:p-12 rounded-xl shadow-lg m-6' key={index}>
+      <div className='flex flex-col md:flex-row border p-2 md:p-12 rounded-xl shadow-lg m-6' key={index}>
         <div className="md:w-1/2 p-4 relative">
           <img src={event.image} alt={`Event ${index + 1}`} className="w-full h-auto md:w-3/4 rounded-xl" />
           <span className="text-black absolute top-1/2 left-0 transform -translate-y-1/2 h-10 flex px-2 rounded-lg items-center text-center font-bold yellow">{event.date}</span>

@@ -24,6 +24,7 @@ export default function Home(){
       Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero,
        sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est."
        btn= "VOLUNTEER"
+       link = '/GET_INVOLVED/Volunteer'
     />
     <Footer
       

@@ -17,7 +17,7 @@ export default function Section3() {
     <div ref={teamRef} id='team'>
     <h1 className='font-extrabold text-3xl text-center' >Our Team</h1>
     </div>
-    <div className="p-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="md:p-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:w-full">
       {team.map((employee, index) => (
         <div key={index} className=" p-10 flex flex-col items-center">
           <img src={employee.image} alt={employee.name} className="w-full  " />
