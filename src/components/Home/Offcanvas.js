@@ -158,7 +158,7 @@ const Offcanvas = ({ onClose }) => {
         <li className="relative">
           <div className="flex items-center">
             <Link
-              to="/GET_INVOLVED/Get_Involved"
+              to="/GET_INVOLVED/GetInvolved"
               className="block text-white"
               onClick={() => setActiveDropdown(null)}
             >
