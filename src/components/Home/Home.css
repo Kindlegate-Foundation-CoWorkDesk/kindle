@@ -44,5 +44,10 @@
 .blue{
   background-color: #14BDE3;
 }
-
+@media (max-width: 400px) {
+  .padding {
+    padding-left:20px;
+    padding-right: 20px;
+  }
+}
 

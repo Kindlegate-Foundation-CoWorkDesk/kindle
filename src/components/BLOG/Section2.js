@@ -24,29 +24,28 @@ export default function Section2() {
 
   return (
     <div>
-      <h2>YouTube Videos</h2>
-      <div className="video-container">
+      <h2 className='text-3xl font-bold p-3' >YouTube Videos</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {videos.map(video => (
-          <div key={video.id.videoId} className="video-item grid grid-cols-2 gap-4">
-            <div className='p-4'>
-              <a
-                href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={video.snippet.thumbnails.medium.url}
-                  alt={video.snippet.title}
+          <div key={video.id.videoId} className="p-4">
+            <a
+              href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="relative aspect-w-16 aspect-h-9">
+                <iframe
+                  className="w-full h-full"
+                  src={`https://www.youtube.com/embed/${video.id.videoId}`}
+                  title={video.snippet.title}
+                  frameBorder="0"
+                  allowFullScreen
                 />
-                <p>{video.snippet.title}</p>
-              </a>
-            </div>
-            
-            <div className='p-4'>
-              <p>{video.snippet.description}</p>
-            </div>
+              </div>
+              <p>{video.snippet.title}</p>
+            </a>
+            <p>{video.snippet.description}</p>
           </div>
-          
         ))}
       </div>
     </div>

@@ -1,5 +1,5 @@
 import pers1 from './images/person1.png'
-export default [
+const team = [
   {
     name: 'John Doe',
     image: pers1,
@@ -39,3 +39,4 @@ export default [
   
   
 ];
+export default team

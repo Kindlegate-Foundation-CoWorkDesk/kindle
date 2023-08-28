@@ -1,5 +1,5 @@
 import dp from '../MANDATE/images/person1.png'
-export default [
+const team_details = [
   {
     image: dp,
     title : "Lorem ipsum",
@@ -45,3 +45,4 @@ export default [
     bg_color:"#00586B"
   },
 ]
+export default team_details

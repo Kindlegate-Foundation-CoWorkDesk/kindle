@@ -1,7 +1,7 @@
 import prog1 from './Images/Section4a.png'
 import prog2 from './Images/Section4b.png'
 import prog3 from './Images/Section4c.png'
-export default [
+const Programs = [
   {
     image:prog1,
     title:'Leadership',
@@ -21,3 +21,4 @@ export default [
     link: '/'
   },
 ]
+export default Programs

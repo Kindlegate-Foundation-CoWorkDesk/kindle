@@ -42,7 +42,7 @@ export default function Section2(){
           </div>
           <div className='py-10 sm:float-right mr-0 sm:mr-20'>
             <Link to='/MANDATE/Mandate'>
-              <button className=' light-blue hover:bg-blue-600 text-black font-semibold  h px-2 rounded-full sm:w-56 w-28 h-14' >LEARN MORE</button>
+              <button className=' light-blue hover:bg-blue-600 text-black font-semibold  whitespace-nowrap h px-2 rounded-full padding  w-auto h-14' >LEARN MORE</button>
             </Link>
             
           </div>

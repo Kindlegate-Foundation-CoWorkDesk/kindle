@@ -34,10 +34,11 @@ const Nav = () => {
   };
 
   return (
-    <nav
+    <>
+      <nav
       className={`${
         isScrolled ? 'blue' : 'bg-transparent'
-      } fixed top-0 w-full flex flex-row  transition-all duration-300 z-30 h-auto min-h-[50px] custom-nav  `}
+      } fixed top-0 w-full  flex flex-row  transition-all duration-300 z-30 h-auto min-h-[50px] custom-nav  `}
     >
       <div className="logo">
           <img src={logo} alt='logo' className='w-16 h-16'/>
@@ -208,7 +209,12 @@ const Nav = () => {
         ☰
       </button>
       {showOffcanvas && <Offcanvas onClose={toggleOffcanvas} />}
+      
     </nav>
+    
+    </>
+    
+   
   );
 };
 

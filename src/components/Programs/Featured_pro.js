@@ -2,7 +2,7 @@ import prog1 from '../Home/Images/Section4a.png'
 import prog2 from '../Home/Images/Section4b.png'
 import prog3 from '../Home/Images/Section4c.png'
 import prog4 from './images/feat_prog4.png'
-export default [
+const feat_prog = [
   {
     image:prog1,
     title:'Leadership',
@@ -40,3 +40,4 @@ export default [
     link: '/MANDATE/Mandate#about'
   }
 ]
+export default feat_prog

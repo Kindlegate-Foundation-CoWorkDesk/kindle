@@ -6,7 +6,7 @@ import save from './images/sec4iconE.png'
 import UN from './images/sec4iconF.png'
 import care from './images/sec4iconG.png'
 
-export default [
+const Partners = [
   {logo:one,
   link:"https://www.one.org/international/"},
   {logo:unicef,
@@ -24,3 +24,4 @@ export default [
   
 
 ]
+export default Partners

@@ -3,7 +3,7 @@ import prog2 from '../Home/Images/Section4b.png'
 import prog3 from '../Home/Images/Section4c.png'
 import prog4 from './images/feat_prog4.png'
 import prog5 from './images/prog.png'
-export default [
+const progDetails = [
   {
     id: "lead",
     image : prog1,
@@ -72,3 +72,4 @@ export default [
   },
 
 ]
+export default progDetails
